@@ -1,0 +1,28 @@
+{
+	"author": {
+		"name": "Adonis Krasniqi"
+	},
+	"description": "Create VueJS component using terminal, component is split into multiple files.",
+	"keywords": [
+		"vue",
+		"vuejs",
+		"component",
+		"creator",
+		"split"
+	],
+	"license": "MIT",
+	"name": "vue-component-creator",
+	"version": "1.0.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/adoniskrasniqi/VueComponentCreator.git"
+	},
+
+	"main": "cli.js",
+	"scripts": {
+		"test": "vcc"
+	},
+	"bin": {
+		"vcc": "./cli.js"
+	}
+}
